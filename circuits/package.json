@@ -1,0 +1,14 @@
+{
+  "name": "circuit-simulator",
+  "version": "1.0.0",
+  "description": "Simple Circuit Simulator",
+  "main": "simulator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Tomas Tulka (ttulka)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

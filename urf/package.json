@@ -1,0 +1,14 @@
+{
+  "name": "urf",
+  "version": "1.0.0",
+  "description": "Universal Recursive Function",
+  "main": "urf.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Tomas Tulka (ttulka)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
