@@ -461,10 +461,10 @@ class MUX {
         this.and = chip(AND)
         this.or = chip(OR)
     }
-    exec(op0, op1, select) {
+    exec(opt0, opt1, select) {
         return this.or(
-            this.and(op0, this.not(select)),
-            this.and(op1, select)
+            this.and(opt0, this.not(select)),
+            this.and(opt1, select)
         )
     }
 }
