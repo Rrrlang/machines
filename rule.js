@@ -18,10 +18,10 @@ function evolve() {
 
     function next(u, x, rule) {
         const idx = 
-            ((x > 0 ? u[x - 1] : 0) << 2)
-            + (u[x] << 1) 
-            + (x < u.length - 1 ? u[x + 1] : 0)
+            (u[i(x - 1)] << 2) + (u[x] << 1) + (u[i(x + 1)])
         return (rule & (1 << idx)) > 0
+
+        function i(x) { return (u.length + x) % u.length; }
     }
 }
 
